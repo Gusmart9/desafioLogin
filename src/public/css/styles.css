@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+    background-color: whitesmoke;
+    color: red;
+}
+ 
+a:link, a:visited, a:active{
+    text-decoration:none;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul  {
+    text-align: center;
+}
+
+td {
+    width: 2%;
+  }
+
+  p  {
+    text-align: center;
+}
+  

@@ -1,0 +1,31 @@
+<div>
+    <h2>Producto</h2>
+    <hr />
+    <table>
+        <thead>
+            <tr>
+                <td>Producto</td>
+                <td>Descripción</td>
+                <td>Precio</td>
+                <td>Código</td>
+                <td>Stock</td>
+                <td>Categoria</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{this.title}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.price}}</td>
+                <td>{{this.code}}</td>
+                <td>{{this.stock}}</td>
+                <td>{{this.category}}</td>
+                <td>
+                    <form action="/api/carts/64a36d28ae5981f3f6e4488e/product/{{this._id}}" method="POST">
+                        <button type="submit">Agregar al carrito</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
